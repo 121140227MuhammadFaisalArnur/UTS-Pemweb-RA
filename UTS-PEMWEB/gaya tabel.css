@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    border: none;
+    scroll-behavior: smooth;
+  }
+
+  header {
+    padding: 15px 20px;
+    background: #ff0707e8;
+  }
+
+  main {
+    display: flex;
+    background: #5f5f5fe8;
+    padding: 110px 110px;
+  }
+  .kepalabar {
+    color: #ddd;
+    font-size: 30px;
+    font-family: "Roboto";
+    text-align: center;
+  }
+
+  img {
+    height: 60px;
+    width: 60px;
+  }
+
+  .heading {
+    color: #ddd;
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  .teks {
+    flex: 1 1 45rem;
+  }
+
+  .navigasi {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .link ol li {
+    display: inline-flex;
+  }
+
+  .link a {
+    color: #ddd;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0 18px;
+    transition: 0.5s ease;
+    cursor: pointer;
+  }
+
+  .link a:hover {
+    color: gold;
+    border-bottom: 0.1rem solid gold;
+    padding-bottom: 0.5rem;
+  }
+  footer {
+    width: 100%;
+    padding: 20px 0;
+    background-color: #f70606e8;
+    text-align: center;
+    color: #ccc;
+  }
+  .mahasiswa-table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.mahasiswa-table thead {
+    background-color: #333;
+    color: #fff;
+}
+
+.mahasiswa-table th, .mahasiswa-table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.mahasiswa-table tr.ganjil {
+    background-color: rgb(244, 246, 164);
+}
+
+.mahasiswa-table tr.genap {
+    background-color: rgb(236, 131, 131);
+}

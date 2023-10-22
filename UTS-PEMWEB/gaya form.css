@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    border: none;
+    scroll-behavior: smooth;
+  }
+
+  header {
+    padding: 15px 20px;
+    background: #ff0707e8;
+  }
+
+  main {
+    display: flex;
+    background: #5f5f5fe8;
+    padding: 30px 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+  }
+
+  img {
+    height: 60px;
+    width: 60px;
+  }
+
+  .heading {
+    color: #ddd;
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+
+  .kepalabar {
+    color: #ddd;
+    font-size: 30px;
+    font-family: "Roboto";
+    text-align: center;
+  }
+  .navigasi {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .link ol li {
+    display: inline-flex;
+  }
+
+  .link a {
+    color: #ddd;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0 18px;
+    transition: 0.5s ease;
+    cursor: pointer;
+  }
+
+  .link a:hover {
+    color: gold;
+    border-bottom: 0.1rem solid gold;
+    padding-bottom: 0.5rem;
+  }
+  footer {
+    width: 100%;
+    padding: 20px 0;
+    background-color: #f70606e8;
+    text-align: center;
+    color: #ccc;
+  }
+  form{
+    color: white;
+  }
+  textarea, input[type="text"], input[type="email"], input[type="password"], input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
